@@ -3,7 +3,7 @@ const BlogList = (pros) => {
 
    const blog1 = pros.blogsss;
    const title = pros.title;
-   const eventhandle = pros.eventhandle;
+   //const eventhandle = pros.eventhandle;
 
     return (
       <div className="bloglist">

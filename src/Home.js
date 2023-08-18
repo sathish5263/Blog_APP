@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+import { useState} from 'react';
 import BlogList from './BlogList';
 import useFetch from './useFetch';
 const Home = () => {
@@ -10,11 +10,11 @@ const Home = () => {
     //  setName("Sathish");
     //  setAge(30);
 
-    const [blogs, setBlogs] = useState([
-        { title:"My New Website" , body:"Lorem ipsum...", author : "mario" ,id: 1},
-        { title:"Welcome Party" , body:"Lorem ipsum...", author : "yash" ,id: 2},
-        { title:"web dev top tips" , body:"Lorem ipsum...", author : "mario" ,id: 3},
-    ])
+    // const [blogs, setBlogs] = useState([
+    //     { title:"My New Website" , body:"Lorem ipsum...", author : "mario" ,id: 1},
+    //     { title:"Welcome Party" , body:"Lorem ipsum...", author : "yash" ,id: 2},
+    //     { title:"web dev top tips" , body:"Lorem ipsum...", author : "mario" ,id: 3},
+    // ])
 
     const eventhandle = (id) => {
       const blog = blog11.find((b) => b.id === id); // Use find instead of filter
@@ -24,9 +24,9 @@ const Home = () => {
   }
   
 
-    const handle1 = (name, e) => {
-       console.log("This is " + name, e.target)
-    }
+    // const handle1 = (name, e) => {
+    //    console.log("This is " + name, e.target)
+    // }
 
     //const [name , setName] = useState("Sathish")
     //Getting blogs from directly JSON server
