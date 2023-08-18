@@ -17,12 +17,6 @@
       "body": "This is the new Blog body",
       "author": "yoshi",
       "id": 7
-    },
-    {
-      "title": "The Future of Artificial Intelligence",
-      "body": "In today's fast-paced technological landscape, artificial intelligence (AI) has emerged as a game-changer. AI encompasses the development of machines and systems that can perform tasks that usually require human intelligence, such as learning, problem-solving, and decision-making. From voice assistants like Siri and Alexa to advanced predictive analytics, AI is shaping various industries.\n\nAdvancements in AI: Explore breakthroughs like machine learning, neural networks, and natural language processing that enable AI systems to improve over time and perform complex tasks.\nApplications of AI: Delve into how AI is being used in sectors like healthcare (diagnostics and drug discovery), finance (algorithmic trading), and transportation (self-driving cars).\nEthical Considerations: Discuss the ethical challenges posed by AI, including data privacy, bias in algorithms, and the potential impact on jobs and society.\nThe Path Ahead: Examine the possibilities and potential future developments in AI, such as AGI (Artificial General Intelligence) and its implications for humanity.",
-      "author": "mario",
-      "id": 8
     }
   ]
 }

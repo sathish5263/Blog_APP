@@ -2,11 +2,15 @@
    margin: 0;
    box-sizing: border-box;
    padding : 0;
+   padding-bottom: 0;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    color: #333;   
 }
 body {
   background: linear-gradient(135deg, #b7b6da, #5e87b3, #4fb7a6);
+  margin: 0;
+  box-sizing: border-box;
+  padding : 0;
 
 }
 .navbar {
@@ -15,6 +19,7 @@ body {
   align-items: center;
   justify-content: space-between;
   width : 100%;
+  height: 10vh;
   margin: 0;
   border-bottom: 1px solid #f2f2f2;
 }
@@ -34,15 +39,15 @@ body {
   color: darkblue;
 }
 .content {
-  max-width: 600px;
-  margin: 40px auto;
+  width: 100%;
+  height: 100vh;
   padding: 20px;
 }
 .blog-preview {
   display: flex;
   gap: 2px;
   flex-direction: column;
-  padding: 10px 26px;
+  padding: 20px 26px;
   margin: 15px;
   color: darkblue;
   
@@ -108,6 +113,8 @@ form input {
 }
 .blogdetails {
     display: flex;
+    justify-content:center;
+    height: 90vh;
     flex-direction: column;
     align-items: center;
 }
@@ -115,6 +122,8 @@ form input {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 90vh;
 }
 
 .btn{
@@ -153,7 +162,7 @@ form input {
   position : relative;
   display: flex;
   flex-direction: column;
-  max-width : 550px;
+  width : 37%;
   margin: 20px;
   padding: 10px;
   border-radius: 10px;
@@ -184,8 +193,10 @@ form input {
 }
 .lg-box2{
   position : relative;
+  margin: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   min-width : 600px;
   min-height: 300px;
